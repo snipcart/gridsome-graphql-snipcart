@@ -23,4 +23,6 @@ export default function (Vue, { head, router, isServer }) {
     id: 'snipcart',
     'data-api-key': 'MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4',
   });
+
+  head.titleTemplate = "%s – Snipcart's Furniture Store";
 }

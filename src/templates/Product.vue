@@ -71,13 +71,15 @@ export default {
             selected: 0,
         };
     },
+    metaInfo () {
+        return {
+            title: this.$page.product.title,
+        };
+    },
     methods: {
         select(index) {
             this.selected = index;
         } 
-    },
-    created(){
-        console.log(this.$page);
     }
 }
 </script>

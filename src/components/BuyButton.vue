@@ -30,9 +30,6 @@ export default {
                 url: this.product.picture[0].thumbnails.large.url.src,
             } : null,
         };
-    },
-    mounted(){
-        console.warn(this.product);
     }
 };
 </script>

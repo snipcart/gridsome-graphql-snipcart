@@ -68,6 +68,9 @@ export default {
     components: {
         Pager,
         ProductPreview,
+    },
+    metaInfo: {
+      titleTemplate: "Snipcart's Furniture Store"
     }
 };
 </script>
