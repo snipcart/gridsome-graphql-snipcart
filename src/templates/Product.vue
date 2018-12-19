@@ -27,6 +27,7 @@
 aside {
     width: 20em;
     float: left;
+    margin-right: 1em;
 }
 
 figure, .img-main {
