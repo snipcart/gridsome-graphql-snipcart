@@ -5,7 +5,7 @@
         :data-item-description="excerpt"
         :data-item-image="image.url"
         :data-item-price="product.price"
-        :data-item-url="product.path">
+        :data-item-url="'https://snipcart-gridsome-airtable.netlify.com' + product.path">
         <slot>
             Buy for {{ product.price }}$
         </slot>
