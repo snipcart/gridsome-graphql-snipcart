@@ -35,6 +35,13 @@ figure, .img-main {
     margin: 0;
 }
 
+figure {
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-preview {
     width: 4em;
     box-sizing: border-box;

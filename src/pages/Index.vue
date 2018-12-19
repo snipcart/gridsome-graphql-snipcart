@@ -13,6 +13,7 @@
 .product-navigation {
   display: flex;
   justify-content: center;
+  flex: 0 1 auto;
 }
 
 .product-navigation a {

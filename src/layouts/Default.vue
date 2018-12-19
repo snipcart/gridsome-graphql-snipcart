@@ -3,7 +3,9 @@
     <header class="header">
       <g-link :to="{ name: 'home' }" class="home-btn">Furniture Store</g-link>
     </header>
-    <slot/>
+    <section class="content">
+      <slot />
+    </section>
     <footer>
       <p>Made with a few ☕️ at <a href="https://snipcart.com/">Snipcart</a></p>
       <p>
@@ -27,11 +29,23 @@ body {
   line-height: 1.5;
 }
 
+html, body, .layout {
+  margin: 0;
+  min-height: 100vh;
+}
+
 .layout {
   max-width: 600px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
 }
 
 .header {
