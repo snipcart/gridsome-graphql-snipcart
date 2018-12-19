@@ -1,9 +1,11 @@
 <template>
     <article>
-        <figure v-if="image">
-            <img :src="image.url" :alt=image.name />
-        </figure>
-        <h2>{{product.title}}</h2>
+        <g-link :to="product.path">
+            <figure v-if="image">
+                <img :src="image.url" :alt=image.name />
+            </figure>
+            <h2>{{product.title}}</h2>
+        </g-link>
         <p class="btn-line">
             <BuyButton :product="product" />
         <p>{{excerpt}}</p>
@@ -33,9 +35,6 @@ export default {
                 url: this.product.picture[0].thumbnails.large.url.src,
             } : null,
         };
-    },
-    mounted(){
-        console.warn(this.product);
     }
 };
 </script>

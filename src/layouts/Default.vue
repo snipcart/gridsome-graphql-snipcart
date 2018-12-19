@@ -8,7 +8,7 @@
       <p>Made with a few ☕️ at <a href="https://snipcart.com/">Snipcart</a></p>
       <p>
         Read our 
-          <a href="">
+          <a href="https://snipcart.com/blog/vuejs-graphql-airtable-example">
             blog post on Gridsome and Airtable
           </a> or go see
           <a href="https://github.com/snipcart/snipcart-gridsome-airtable">

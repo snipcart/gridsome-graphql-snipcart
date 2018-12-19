@@ -1,11 +1,9 @@
 <template>
   <Layout>
     <section class="products">
-      <g-link
+      <ProductPreview 
         v-for="edge in $page.allProduct.edges" :key="edge.node.id"
-       :to="edge.node.path" class="product">
-        <ProductPreview :product="edge.node" />
-      </g-link>
+        :product="edge.node" class="product" />
     </section>
     <Pager :info="$page.allProduct.pageInfo" class="product-navigation" />
   </Layout>
@@ -31,7 +29,7 @@
 
 .product-navigation a.active {
   font-weight: normal;
-  background-color: hsla(152, 65%, 80%, 1);;
+  background-color: hsla(152, 65%, 80%, 1);
 }
 
 .products {
@@ -54,6 +52,10 @@
   margin: 1em;
 }
 
+.product button {
+  width: 100%;
+}
+
 </style>
 
 
@@ -62,16 +64,16 @@ import { Pager } from 'gridsome'
 import ProductPreview from '../components/ProductPreview'
 
 export default {
-  components: {
-    Pager,
-    ProductPreview,
-  },
+    components: {
+        Pager,
+        ProductPreview,
+    }
 };
 </script>
 
 <page-query>
 query Products($page: Int) {
-  allProduct (perPage: 3, page: $page) @paginate {
+  allProduct (perPage: 6, page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage

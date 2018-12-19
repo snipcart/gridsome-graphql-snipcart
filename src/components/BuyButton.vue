@@ -39,7 +39,6 @@ export default {
 
 <style scoped>
 button {
-    width: 100%;
     background-color: #E3E3E3;
     border: 0;
     font-family: inherit;
