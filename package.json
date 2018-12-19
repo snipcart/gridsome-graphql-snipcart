@@ -1,0 +1,15 @@
+{
+  "name": "snipcart-gridsome-airtable-demo",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "airtable": "^0.5.8",
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "gridsome": "^0.3.0"
+  }
+}
