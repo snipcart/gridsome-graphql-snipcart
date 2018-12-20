@@ -8,8 +8,7 @@
   },
   "dependencies": {
     "airtable": "^0.5.8",
-    "axios": "^0.18.0",
     "dotenv": "^6.2.0",
-    "gridsome": "^0.3.0"
+    "gridsome": "^0.4.0"
   }
 }
