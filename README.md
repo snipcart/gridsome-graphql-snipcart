@@ -17,8 +17,8 @@ Steps:
 - Building Vue.js views & listing
 - Adding the buy button
 
-> See the live demo [here](https://snipcart-gridsome-airtable.netlify.com/)
-
 > Read the full tutorial [here](https://snipcart.com/blog/vuejs-graphql-airtable-example)
+
+> See the live demo [here](https://snipcart-gridsome-airtable.netlify.com/)
 
 Enjoy folks!
