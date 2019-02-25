@@ -20,3 +20,5 @@ Steps:
 > See the live demo [here](https://snipcart-gridsome-airtable.netlify.com/)
 
 > Read the full tutorial [here](https://snipcart.com/blog/vuejs-graphql-airtable-example)
+
+Enjoy folks!
